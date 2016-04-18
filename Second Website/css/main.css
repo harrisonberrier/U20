@@ -140,7 +140,8 @@ hr.small {
     position: fixed;
     top: 0;
     right: 0;
-    background: transparent;
+    background: gray;
+    opacity: .3;
 }
 
 #sidebar-wrapper.active {
@@ -181,7 +182,8 @@ hr.small {
 .services {
     padding: 50px 0;
     background-color: white;
-    color: black;
+    color: darkgray;
+    opacity: .9;
 }
 
 .service-item {
@@ -223,7 +225,6 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
-    background-color: darkgray;
 }
 
 .call-to-action .btn {
@@ -233,12 +234,13 @@ hr.small {
 #passes {
     display: table;
     width: 100%;
-    background: url(../img/atx-pano.jpg) no-repeat center center scroll;
+    background:transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-attachment: fixed;
+    color:black;
 }
 
 footer {
@@ -268,4 +270,20 @@ footer {
     padding-top: 50px;
     text-align: center;
     font-weight: bold;
+}
+
+.bottom{
+    display: table;
+    width: 100%;
+    background: url(../img/atx-pano.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    height:175px;
+}
+
+.partners-title{
+    text-align: center;
 }
