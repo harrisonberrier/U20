@@ -41,11 +41,13 @@
                 <a href="#about" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
+                <a href="#partners" onclick = $("#menu-close").click(); >Partners</a>
+            </li>
+            <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
             </li>
         </ul>
     </nav>
-    <!-- yes, those menu items are kinda tough to see at the moment, sorry!>
     <!-- Header -->
     <header id="top" class="header">
 <div style="text-align: center">
@@ -153,7 +155,7 @@
     <!-- we could use this do display some of our work somehow-->
     <!-- I also linked the pictures because why not? They could eventually lead to something.-->
     <section id="portfolio" class="portfolio">
-        <h1 class="partners-title"><strong>Partners</strong></h1>
+        <h1 class="partners-title" id="partners"><strong>Partners</strong></h1>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -217,15 +219,15 @@
                     </ul>
                     <br>
                     <!-- these buttons will eventually link to social media accounts for the event-->
-                    <ul class="list-inline">
+                    <ul class="list-inline" id="social-media">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x" id="social-media"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x" id="social-media"></i></a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-fw fa-3x" id="social-media"></i></a>
                         </li>
                     </ul>
                 </div>
